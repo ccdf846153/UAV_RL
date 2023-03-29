@@ -302,12 +302,12 @@ class StateSpace(Space):
 
 # * 测试代码
 # if __name__ == '__main__':
-    discrete_action_space = ActionSpace(
-        num_objects=4,
-        num_choices=None,
-        action_list=[(0, 0), (1, 0), (-1, 0), (0, 1), (0, -1)],
-        mode='discrete'
-    )
+#     discrete_action_space = ActionSpace(
+#         num_objects=4,
+#         num_choices=None,
+#         action_list=[(0, 0), (1, 0), (-1, 0), (0, 1), (0, -1)],
+#         mode='discrete'
+#     )
 
 #     continuous_action_space = ActionSpace(
 #         num_objects=4,
