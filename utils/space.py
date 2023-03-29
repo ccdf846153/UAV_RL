@@ -3,14 +3,6 @@ from typing import List, Dict
 from abc import abstractmethod
 
 
-def toStr(num,base):
-    convertString = "0123456789ABCDEF"#最大转换为16进制
-    if num < base:
-        return convertString[num]
-    else:
-        return toStr(num//base,base) + convertString[num % base]
-
-
 class Space(object):
     @abstractmethod
     def sample(self):
